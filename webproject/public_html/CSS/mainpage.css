@@ -2,6 +2,8 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+    margin-left: 0;
+    margin-top: 0;
 }
 #background {
     background-image: url("https://www.dn.no/incoming/article192512.ece/ALTERNATES/fullwidth/LB%20T-bane%20inne.jpg");
@@ -28,8 +30,13 @@ body {
     
 }
 .header {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    background-color: black;
+    color: white;
     border-style: solid;
-    border-color: green;
-    width: 90%;
-    height: 10%;
+    border-color: black;
+    
 }
