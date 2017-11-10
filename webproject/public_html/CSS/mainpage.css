@@ -4,7 +4,11 @@ body {
     overflow-x: hidden;
     margin-left: 0;
     margin-top: 0;
-    font-family: fontawesome-webfont;
+    font-family: verdana;
+}
+h1 {
+    font-family: verdana;
+    font-size: 1.8em;
 }
 #background {
     background: url(../images/background_oslo2.jpg);  
@@ -86,8 +90,8 @@ li {
     font-size: 1.5em;
 }
 @font-face {
-    font-family: fontawesome-webfont;
-    src:url("fontawesome-webfont.ttf");
+    font-family: test;
+    src: url('malibu_babylon.ttf');
 }
 ul {
     list-style-type: none;
