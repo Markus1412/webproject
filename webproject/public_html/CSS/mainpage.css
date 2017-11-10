@@ -19,11 +19,6 @@ h1 {
     z-index: -1;
     display: block;
 }
-#main { 
-    margin-left: 25%;
-    margin-right: 25%;
-
-}
 .header {
     width: 100%;
     margin-left: 0;
@@ -43,47 +38,14 @@ h1 {
     padding-right: 5%;
     position:static;
 }
-#header_icon {
-    display: inline-block;
-    height: 100%;
-    width: 49.75%;
-    margin: 0;
-    text-align: center;
-
-}
 #header_text {
     display: inline-block;
     height: 100%;
     position:static;
     float: right;
-
 }
 p {
     color: white;
-}
-#rf_icon {
-    width: 10%;
-    height: 10%;
-    float:left;
-}
-#rf_text {
-    float: left;
-    font-size: 1.5em;
-    margin: 0;
-    padding-top: 0.75em;
-    padding-left: 0.4em;
-}
-#pictureBox {
-    display: block;
-    text-align: center;
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-#pic_icon {
-    height: 100%;
-    width: 100%;
 }
 li {
     float: left;
@@ -115,16 +77,16 @@ li a:hover {
     height: auto;
     text-align: center;
 }
-#share {
+#p2_transport {
     display: inline-block;
-    margin-left: 0;
+    margin-right: 0;
     width: 25%;
     height: auto;
     text-align: center;
     margin-top: 3%;
     vertical-align: top;
 }
-#phone {
+#p2_phone {
     display: inline-block;
     width: 25%;
     height: auto;
@@ -134,30 +96,57 @@ li a:hover {
     margin-right: 5%;
     vertical-align: top;
 }
-#transport {
+#p2_share {
     display: inline-block;
-    margin-right: 0;
+    margin-left: 0;
     width: 25%;
     height: auto;
     text-align: center;
     margin-top: 3%;
     vertical-align: top;
 }
-#pic1 {
+
+#p2_pic1, #p2_pic2, #p2_pic3 {
     width: 30%;
     height: 30%;  
 }
-#pic2 {
-    width: 30%;
-    height: 30%;
-}
-#pic3 {
-    width: 30%;
-    height: 30%;
-}
-#text1, #text2, #text3 {
+
+#p2_text1, #p2_text2, #p2_text3, #p3_text1, #p3_text2 {
     color: black;
 }
 #partthree {
     background-color: #e6e6e6;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#p3_problemBox {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    text-align: right;
+    vertical-align: top;
+    margin-top: 3%;
+}
+#p3_problemSolutionImage {
+    display: inline-block;
+    width: 20%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: auto;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 3%;
+}
+#p3_solutionBox {
+    display: inline-block;
+    width: 30%;
+    height: auto;
+    text-align: left;
+    vertical-align: top;
+    margin-top: 3%;
+}
+#p3_pic1{
+    width: 30%;
+    height: 30%;  
 }
