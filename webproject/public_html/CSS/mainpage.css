@@ -177,3 +177,30 @@ li a:hover {
     height: 100%;
     text-align: center;
 }
+#footer {
+    width: 100%;
+    height: 15%;
+    display: inline-block;
+    background-color: black;
+    margin-bottom: -5%;
+}
+#facebook, #twitter, #instagram {
+    width: 5%;
+    height: auto;
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: middle;
+}
+#f_pic, #t_pic, #i_pic {
+    width:50%;
+    height: 50%;
+    display: inline-block;
+    text-align: center;
+}
+#footer_text {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    color: white;
+    text-align: center;
+}
