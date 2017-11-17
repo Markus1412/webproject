@@ -8,7 +8,11 @@ body {
 }
 h1 {
     font-family: verdana;
-    font-size: 1.8em;
+    font-size: 2vw;
+}
+h2 {
+    font-family: verdana;
+    font-size: 2.5vw;
 }
 #background {
     background: url(../images/background_oslo2.jpg);  
@@ -23,7 +27,7 @@ h1 {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 0;  
     margin-bottom: 0;
     background-color: transparent;
     display: block;
@@ -49,7 +53,7 @@ p {
 }
 li {
     float: left;
-    font-size: 1.5em;
+    font-size: 1.7vw;
 }
 @font-face {
     font-family: test;
@@ -111,8 +115,17 @@ li a:hover {
     height: 30%;  
 }
 
-#p2_text1, #p2_text2, #p2_text3, #p3_text1, #p3_text2, #p4_text1, #p4_text2 {
+#p2_text1, #p2_text2, #p2_text3 {
     color: black;
+    font-size: 1.4vw;
+}
+#p3_text1, #p3_text2 {
+    color: black;
+    font-size: 1.4vw;
+}
+#p4_text1, #p4_text2 {
+    color: black;
+    font-size: 1.4vw;
 }
 #partthree {
     background-color: #e6e6e6;
@@ -157,17 +170,18 @@ li a:hover {
 }
 #p4_problembenefitimage {
     display: inline-block;
-    width: 35%;
+    width: 32%;
     height: auto;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 12%;
+    margin-left: 3%;
     margin-right: 3%;
     vertical-align: top;
-    
+
 }
 #p4_textBox {
     display: inline-block;
-    width: 60%;
+    width: 58%;
     height: auto;
     text-align: left;
     vertical-align: top;
@@ -203,4 +217,66 @@ li a:hover {
     display: inline-block;
     color: white;
     text-align: center;
+}
+@media only screen and (min-width: 320px) and (max-width: 780px) {
+    #partTwo {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    #p2_transport {
+        display: block;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        vertical-align: top;
+        margin-bottom: 3%;
+    }
+    #p2_phone {
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        vertical-align: top;
+         margin-bottom: 2%;
+    }
+    #p2_share {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        vertical-align: top;
+        margin-bottom: 2%;
+    }
+    #transportpic, #phonepic, #sharepic {
+        display: inline-block;
+        width: 30%;
+        height: auto;
+        float: left;
+        margin-top: 3%;
+    }
+
+    #p2_pic1, #p2_pic2, #p2_pic3 {
+        width: 45%;
+        height: 45%;  
+    }
+    h1 {
+        display: inline-block;
+        width: 65%;
+        font-size: 2.5vw;
+    }
+    #p2_text1, #p2_text2, #p2_text3 {
+        color: black;
+        font-size: 2vw;
+        display: inline-block;
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width: 781px) and (max-width: 1281px) {
+   
 }
