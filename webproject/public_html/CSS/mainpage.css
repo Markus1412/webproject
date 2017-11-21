@@ -201,7 +201,7 @@ li a:hover {
 
 #footerbackground{
     width: 100%;
-    background-color: black;
+    background-color: #C03F1F;
 }
 
 #footer {
@@ -211,11 +211,10 @@ li a:hover {
     margin-bottom: -5%;
 }
 #facebook, #twitter, #instagram {
-    width: 5%;
+    width: 60px;
     height: auto;
-    margin-left: 2%;
+    margin-top: 10px;
     display: inline-block;
-    vertical-align: middle;
 }
 #f_pic, #t_pic, #i_pic {
     width:50%;
@@ -229,6 +228,13 @@ li a:hover {
     color: white;
     text-align: center;
 }
+
+#footer_pictures{
+    display: inline-block;
+    float: left;
+    width:40%;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 780px) {
     #partTwo {
         width: 100%;
