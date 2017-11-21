@@ -8,20 +8,28 @@ body {
 }
 h1 {
     font-family: verdana;
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 h2 {
     font-family: verdana;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
 }
 #background {
-    background: url(../images/background_oslo2.jpg);  
+    background: url(../images/background_image.jpg);  
     margin-top: 0;
     width: 100%;
     height: 75vh;
     background-size: cover;
     z-index: -1;
     display: block;
+}
+#background_text {
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 10%;
 }
 .header {
     width: 100%;
@@ -117,15 +125,15 @@ li a:hover {
 
 #p2_text1, #p2_text2, #p2_text3 {
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 #p3_text1, #p3_text2 {
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 #p4_text1, #p4_text2 {
     color: black;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
 }
 #partthree {
     background-color: #e6e6e6;
@@ -218,7 +226,7 @@ li a:hover {
     color: white;
     text-align: center;
 }
-@media only screen and (min-width: 320px) and (max-width: 780px) {
+@media only screen and (min-width: 0px) and (max-width: 780px) {
     #partTwo {
         width: 100%;
         height: auto;
@@ -275,6 +283,7 @@ li a:hover {
         display: inline-block;
         width: 65%;
     }
+    
 }
 
 @media only screen and (min-width: 781px) and (max-width: 1281px) {
