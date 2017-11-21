@@ -20,22 +20,75 @@ and open the template in the editor.
                 <p>An easy way to give Ruter feedback</p>
             </div>
             <div id="phone_box">
-                <img id="phone_pic" alt="phone_lg" src="images/app_pics/phone_lg.jpeg">
             </div>
         </div>
+        <div id="all">
+            <div id="previous_arrow">
+                <button class="controls" id="previous">Previous</button>
+            </div>
+            <div id="main">
 
-        <div id="main">
-            <p>Phone preview</p>
-            <p>Phone preview</p>
-            <p>Phone preview</p>
-            <p>Phone preview</p>
-            <p>Phone preview</p>
-            <p>Phone preview</p>
-            <p>Phone preview</p>
-            <p>Phone preview</p>
-            <p>Phone preview</p>            
+                <ul id="slides">
+                    <li class="slide showing">
+                        <div id="vehicle" >
+                            <div id="v_div">
+                                <img id="vehicle_pic" src="images/app_pics/full_vehicle.png">
+                            </div>
+                            <div id="v_text">
+                                Choose Vehicle<br><br>
+
+                                The user can access this new function by opening the RuterReiser app, then selecting RuterFeedback. 
+                                Doing this will take the user to this selection page where you can choose from 7 different vehicles. 
+                                You pick whichever vehicle you used/are using and wish to provide feedback for. 
+                            </div> 
+                        </div>
+                    </li>
+                    <li class="slide"><div id="select" >
+                            <div id="s_div">
+                                <img id="select_pic" src="images/app_pics/full_select.png">
+                            </div>
+                            <div id="s_text">
+                                Select your Metro<br><br>
+                                In this example the user selected Metro on the previous screen. 
+                                The next step is to pick the correct Metro to make sure you are giving feedback in the proper forum.<br><br>
+
+                                By default the app shows nearby vehicles and lets you select the one you are currently on. 
+                                If you are giving feedback after stepping off the Metro you can change the nearby option to recent or history. 
+                                The RuterReiser app already has GPS tracking for other functions and will work for RuterFeedback to 
+                                ensure you are sent to the forum for the vehicle you were traveling with.<br><br>
+
+                                You also have the option to search for a specific Metro if you can’t find the one you are on/recently used. <br><br>
+
+                                The user does not need to know the specific vehicle-number, just the route. 
+                                The specific vehicle number will be worked out through the Ruter database using GPS and your travel history. <br>
+                            </div> 
+                        </div>
+                    </li>
+                    <li class="slide"><div id="forum" >
+                            <div id="f_div">
+                                <img id="forum_pic" src="images/app_pics/full_forum.png">
+                            </div>
+                            <div id="f_text">
+                                Feedback Forum<br><br>
+
+                                After selecting your Metro you get sent to the feedback forum for that specific vehicle. 
+                                Here you can see current topics and decide to read/reply to them if you wish. You can also 
+                                give them a thumbs up/down or use the share button to spread this issue to social media. 
+                                The user can sort the current topics by likes, comments or date. <br><br>
+
+                                A user can easily make a new topic by clicking on the “Feedback…” box. 
+                                This box will then expand and allow the user to write down their feedback.<br><br> 
+
+                                In this specific example picture the user selected Bus -> Route 32 to get sent to this feedback forum. <br>
+                            </div> 
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="next_arrow">
+                <button class="controls" id="next">Next</button>
+            </div>
         </div>
-
         <script src="javascript/slideindex.js"></script>
 
     </body>
