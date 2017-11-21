@@ -70,10 +70,10 @@ li a {
     padding: 16px;
     text-decoration: none;
 }
-
 li a:hover {
-    background-color: #C03F1F;
+    background-color: #e60000;
 }
+
 #partTwo {
     display: table;
     margin: 0 auto;
@@ -132,7 +132,6 @@ li a:hover {
     background-color: #e6e6e6;
     width: 100%;
 }
-
 #partthree {
     display: table;
     margin: 0 auto;
@@ -170,6 +169,7 @@ li a:hover {
     width: 200px;
     height: auto;  
 }
+
 #partfour {
     display: table;
     margin: 0 auto;
@@ -185,7 +185,6 @@ li a:hover {
     margin-top: 12%;
     vertical-align: top;
 }
-
 #p4_textBox {
     display: inline-block;
     width: 58%;
@@ -201,7 +200,7 @@ li a:hover {
 
 #footerbackground{
     width: 100%;
-    background-color: #C03F1F;
+    background-color: #e60000;
 }
 
 #footer {
