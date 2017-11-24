@@ -37,9 +37,10 @@ h2 {
     margin: 0 auto;
     margin-top: 110px;
     width: 1000px;
+    z-index: -1;
 }
 .header {
-    width: 1170px;
+    width: 100%;
     display: table;
     margin: 0 auto;
     background-color: transparent;
@@ -213,7 +214,6 @@ li a:hover {
     left:0;
 }
 #footercontent {
-    display: table;
     margin: 0 auto;
     width: 1170px;
     display:flex;
@@ -240,7 +240,54 @@ li a:hover {
     width:40%;
 }
 
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: inline-block;
+    float:right;
+    z-index: 1;
+}
+
+.dropdown-content {
+    display: none;
+    overflow-style: auto;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #C03F1F;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 1170px) {
+    #header_text{
+        display: none;
+    }
+
+
     #partTwo {
         width: 100%;
         height: auto;
@@ -300,6 +347,10 @@ li a:hover {
 
 }
 
-@media only screen and (min-width: 781px) and (max-width: 1281px) {
+@media only screen and (min-width: 1170px) and (max-width: 4000px) {
+    .dropdown{
+        display:none;
+    }   
+    
 
 }
