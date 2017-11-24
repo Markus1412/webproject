@@ -27,8 +27,8 @@ body {
     display: table;
     margin: 0 auto;
     margin-top: 110px;
-    width: 1000px;
-    z-index: -1;
+    width:100%;
+    max-width: 1000px;
 }
 .header {
     width: 1170px;
@@ -54,7 +54,6 @@ body {
 }
 .dropdown {
     display: inline-block;
-    float:right;
     z-index: 1;
 }
 .dropdown-content {
@@ -271,8 +270,7 @@ li a:hover {
     #header_text{
         display: none;
     }
-
-
+    
     #partTwo {
         width: 100%;
         height: auto;
@@ -330,7 +328,7 @@ li a:hover {
 
 }
 
-@media only screen and (min-width: 1170px){
+@media only screen and (min-width: 641px){
     .dropdown{
         display:none;
     }   
