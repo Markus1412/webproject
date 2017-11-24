@@ -212,24 +212,17 @@ li a:hover {
     bottom:0;
     left:0;
 }
-
-.footer, .push {
-    height: 60px; /* .push must be the same height as .footer */
-}
-
 #footercontent {
     display: table;
     margin: 0 auto;
     width: 1170px;
+    display:flex;
 }
-
 #footer_text {
     display: inline-block;
-    margin: 0 auto;
     color: white;
     text-align: center;
 }
-
 #facebook, #twitter, #instagram {
     width: 60px;
     height: auto;
@@ -242,13 +235,12 @@ li a:hover {
     display: inline-block;
     text-align: center;
 }
-
 #footer_pictures{
     display: inline-block;
     width:40%;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 780px) {
+@media only screen and (min-width: 0px) and (max-width: 1170px) {
     #partTwo {
         width: 100%;
         height: auto;
