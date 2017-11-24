@@ -24,7 +24,9 @@ and open the template in the editor.
         </div>
         <div id="all">
             <div id="previous_arrow">
-                <button class="controls" id="previous">Previous</button>
+                <div id="prev_pic">
+                    <a class="controls" id="previous"><img src="images/arrow_previous.png"></a>
+                </div>
             </div>
             <div id="main">
 
@@ -40,10 +42,35 @@ and open the template in the editor.
                                 The user can access this new function by opening the RuterReiser app, then selecting RuterFeedback. 
                                 Doing this will take the user to this selection page where you can choose from 7 different vehicles. 
                                 You pick whichever vehicle you used/are using and wish to provide feedback for. 
-                            </div> 
+                            </div>
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="slide1" name="selector" checked>
+                                        <label for="slide1"></label>
+
+                                        <div class="check"></div>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" id="slide2" name="selector">
+                                        <label for="slide2"></label>
+
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" id="slide3" name="selector">
+                                        <label for="slide3"></label>
+
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </li>
-                    <li class="slide"><div id="select" >
+                    <li class="slide">
+                        <div id="select" >
                             <div id="s_div">
                                 <img id="select_pic" src="images/app_pics/full_select.png">
                             </div>
@@ -61,10 +88,35 @@ and open the template in the editor.
 
                                 The user does not need to know the specific vehicle-number, just the route. 
                                 The specific vehicle number will be worked out through the Ruter database using GPS and your travel history. <br>
-                            </div> 
+                            </div>
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="slide1" name="selector">
+                                        <label for="slide1"></label>
+
+                                        <div class="check"></div>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" id="slide2" name="selector" checked>
+                                        <label for="slide2"></label>
+
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" id="slide3" name="selector">
+                                        <label for="slide3"></label>
+
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </li>
-                    <li class="slide"><div id="forum" >
+                    <li class="slide">
+                        <div id="forum" >
                             <div id="f_div">
                                 <img id="forum_pic" src="images/app_pics/full_forum.png">
                             </div>
@@ -80,13 +132,39 @@ and open the template in the editor.
                                 This box will then expand and allow the user to write down their feedback.<br><br> 
 
                                 In this specific example picture the user selected Bus -> Route 32 to get sent to this feedback forum. <br>
-                            </div> 
+                            </div>
+                            <div class="container">
+                                <ul>
+                                    <li>
+                                        <input type="radio" id="slide1" name="selector">
+                                        <label for="slide1"></label>
+
+                                        <div class="check"></div>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" id="slide2" name="selector">
+                                        <label for="slide2"></label>
+
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+
+                                    <li>
+                                        <input type="radio" id="slide3" name="selector" checked>
+                                        <label for="slide3"></label>
+
+                                        <div class="check"><div class="inside"></div></div>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </li>
                 </ul>
             </div>
             <div id="next_arrow">
-                <button class="controls" id="next">Next</button>
+                <div id="next_pic">
+                    <a class="controls" id="next"><img src="images/arrow_next.png"></a>
+                </div>
             </div>
         </div>
         <script src="javascript/slideindex.js"></script>
