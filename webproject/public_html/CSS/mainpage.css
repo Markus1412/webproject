@@ -19,7 +19,7 @@ h2 {
 
 #wrapper{
     position:relative;
-    margin: 0 auto 60px;
+    margin: 0 auto;
 }
 
 #background {
@@ -132,6 +132,10 @@ li a:hover {
     font-size: 13px;
 }
 #p4_text1, #p4_text2 {
+    color: black;
+    font-size: 13px;
+}
+#slide_text1, #slide_text2, #slide_text3 {
     color: black;
     font-size: 13px;
 }
