@@ -8,60 +8,50 @@ body {
 }
 h1 {
     font-family: verdana;
-    font-size: 1.7vw;
+    font-size: 20px;
 }
 h2 {
     font-family: verdana;
-    font-size: 2.3vw;
+    font-size: 20px;
 }
+
 #background {
     background: url(../images/background_image.jpg);  
     margin-top: 0;
     width: 100%;
-    height: 75vh;
+    height: 400px;
     background-size: cover;
     z-index: -1;
     display: block;
+    overflow: hidden;
 }
 #background_text {
-    text-align: center;
-    width: 80%;
-    height: auto;
-    margin-left: 9%;
-    margin-right: 9%;
-    margin-top: 10%;
+    display: table;
+    margin: 0 auto;
+    margin-top: 110px;
+    width: 1000px;
 }
 .header {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;  
-    margin-bottom: 0;
+    width: 1170px;
+    display: table;
+    margin: 0 auto;
     background-color: transparent;
-    display: block;
     height: auto;
-    position:static;
+    overflow: hidden;
+    position: static;
+}
 
-}
-#header_size {
-    padding-bottom: 1%;
-    padding-top: 1%;
-    padding-left: 5%;
-    padding-right: 5%;
-    position:static;
-}
 #header_text {
     display: inline-block;
-    height: 100%;
-    position:static;
     float: right;
+    font-size: 13px;
 }
 p {
     color: white;
 }
 li {
     float: left;
-    font-size: 1.7vw;
+    font-size: 20px;
 }
 @font-face {
     font-family: test;
@@ -85,7 +75,9 @@ li a:hover {
     background-color: #C03F1F;
 }
 #partTwo {
-    width: 100%;
+    display: table;
+    margin: 0 auto;
+    width: 1170px;
     height: auto;
     text-align: center;
 }
@@ -125,19 +117,26 @@ li a:hover {
 
 #p2_text1, #p2_text2, #p2_text3 {
     color: black;
-    font-size: 1.2vw;
+    font-size: 13px;
 }
 #p3_text1, #p3_text2 {
     color: black;
-    font-size: 1.2vw;
+    font-size: 13px;
 }
 #p4_text1, #p4_text2 {
     color: black;
-    font-size: 1.2vw;
+    font-size: 13px;
 }
-#partthree {
+
+#partthreebackground{
     background-color: #e6e6e6;
     width: 100%;
+}
+
+#partthree {
+    display: table;
+    margin: 0 auto;
+    width: 1170px;
     height: auto;
     text-align: center;
 }
@@ -168,25 +167,25 @@ li a:hover {
     margin-top: 3%;
 }
 #p3_pic1{
-    width: 100%;
-    height: 100%;  
+    width: 200px;
+    height: auto;  
 }
 #partfour {
-    width: 100%;
+    display: table;
+    margin: 0 auto;
+    width: 1170px;
     height: auto;
     text-align: center;
 }
 #p4_problembenefitimage {
     display: inline-block;
-    width: 32%;
+    width: 200px;
     height: auto;
     text-align: center;
     margin-top: 12%;
-    margin-left: 3%;
-    margin-right: 3%;
     vertical-align: top;
-
 }
+
 #p4_textBox {
     display: inline-block;
     width: 58%;
@@ -199,19 +198,23 @@ li a:hover {
     height: 100%;
     text-align: center;
 }
-#footer {
+
+#footerbackground{
     width: 100%;
-    height: 15%;
-    display: inline-block;
-    background-color: black;
+    background-color: #C03F1F;
+}
+
+#footer {
+    display: table;
+    margin: 0 auto;
+    width: 1170px;
     margin-bottom: -5%;
 }
 #facebook, #twitter, #instagram {
-    width: 5%;
+    width: 60px;
     height: auto;
-    margin-left: 2%;
+    margin-top: 10px;
     display: inline-block;
-    vertical-align: middle;
 }
 #f_pic, #t_pic, #i_pic {
     width:50%;
@@ -220,12 +223,18 @@ li a:hover {
     text-align: center;
 }
 #footer_text {
-    width: 50%;
-    height: auto;
     display: inline-block;
+    margin: 0 auto;
     color: white;
     text-align: center;
 }
+
+#footer_pictures{
+    display: inline-block;
+    float: left;
+    width:40%;
+}
+
 @media only screen and (min-width: 0px) and (max-width: 780px) {
     #partTwo {
         width: 100%;
@@ -249,7 +258,7 @@ li a:hover {
         height: auto;
         text-align: center;
         vertical-align: top;
-         margin-bottom: 2%;
+        margin-bottom: 2%;
     }
     #p2_share {
         display: block;
@@ -283,9 +292,9 @@ li a:hover {
         display: inline-block;
         width: 65%;
     }
-    
+
 }
 
 @media only screen and (min-width: 781px) and (max-width: 1281px) {
-   
+
 }
