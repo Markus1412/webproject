@@ -1,10 +1,12 @@
-body {
-    width: 100%;
-    height: 100%;
+html{
+    min-height:100%;
+}
+
+body {  
     overflow-x: hidden;
-    margin-left: 0;
-    margin-top: 0;
     font-family: verdana;
+    margin: 0;
+    height: 100%;
 }
 h1 {
     font-family: verdana;
@@ -13,6 +15,11 @@ h1 {
 h2 {
     font-family: verdana;
     font-size: 20px;
+}
+
+#wrapper{
+    position:relative;
+    margin: 0 auto 60px;
 }
 
 #background {
@@ -71,7 +78,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    background-color: #e60000;
+    background-color: #C03F1F;
 }
 
 #partTwo {
@@ -198,17 +205,31 @@ li a:hover {
     text-align: center;
 }
 
-#footerbackground{
+.footer{
     width: 100%;
-    background-color: #e60000;
+    background-color: #C03F1F;
+    height: 60px;
+    bottom:0;
+    left:0;
 }
 
-#footer {
+.footer, .push {
+    height: 60px; /* .push must be the same height as .footer */
+}
+
+#footercontent {
     display: table;
     margin: 0 auto;
     width: 1170px;
-    margin-bottom: -5%;
 }
+
+#footer_text {
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
 #facebook, #twitter, #instagram {
     width: 60px;
     height: auto;
@@ -221,16 +242,9 @@ li a:hover {
     display: inline-block;
     text-align: center;
 }
-#footer_text {
-    display: inline-block;
-    margin: 0 auto;
-    color: white;
-    text-align: center;
-}
 
 #footer_pictures{
     display: inline-block;
-    float: left;
     width:40%;
 }
 
