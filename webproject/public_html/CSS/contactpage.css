@@ -191,10 +191,10 @@ input[type=submit]:hover {
         margin: 0 auto;
     }
     #facebook, #twitter, #instagram {
-        margin-top: 2px;
+        margin-top: 1%
     }
     .footer {
-        height: 25px;
+        height: 15%;
     }
 }
 
