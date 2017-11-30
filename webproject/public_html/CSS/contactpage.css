@@ -6,7 +6,6 @@ body {
     font-family: verdana;
     margin: 0;
     height: 100%;
-    background-color: #f2f2f2;
 }
 h1 {
     font-family: verdana;
@@ -14,26 +13,26 @@ h1 {
 }
 h2 {
     font-family: verdana;
+    text-align: center;
     font-size: 30px;
-    color: #f2f2f2;
+    color: black;
+    margin-bottom: 0px;
 }
 #wrapper{
     position:relative;
-    margin: 0 auto 60px;
+    margin: 0 auto;
 }
 #background {
     background: url(../images/trikkbackground.png);  
     margin-top: 0;
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-size: cover;
     z-index: -1;
     display: block;
     overflow: hidden;
 }
-#bg_text {
-    text-align: center;
-}
+
 .header {
     width: 1170px;
     display: table;
@@ -46,8 +45,8 @@ h2 {
 
 #header_text {
     display: inline-block;
-    float: right;
-    font-size: 7px;
+    float: left;
+    font-size: 14px;
 }
 p {
     color: white;
@@ -78,23 +77,43 @@ li a:hover {
     padding-top: 1px;
     padding-bottom: 1px;
 }
+#info_box {
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    max-width: 800px;
+}
 #info_part1 {
     margin: 0 auto;
     display: table;
-    width: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 80%;
+    max-width: 600px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#info_part2 {
+    margin: 0 auto;
+    display: table;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+#infopic {
+    width: 50%;
 }
 #info_text {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     text-align: center;
 }
 #part1 {
-    width: 1170px;
+    width: 100%;
     margin: 0 auto;
     display: table;
+    background-color: #f2f2f2;
 }
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -122,9 +141,11 @@ input[type=submit]:hover {
 #container {
     border-radius: 5px;
     padding: 10px;
-    width: 800px;
+    width: 95%;
+    max-width: 800px;
     margin: 0 auto;
     margin-top: 20px;
+    overflow: hidden;
 }
 .footer{
     width: 100%;
@@ -137,7 +158,7 @@ input[type=submit]:hover {
 #footercontent {
     display: flex;
     margin: 0 auto;
-    width: 1170px;
+    max-width: 1170px;
 }
 #footer_text {
     display: inline-block;
@@ -145,19 +166,35 @@ input[type=submit]:hover {
     text-align: center;
 }
 #facebook, #twitter, #instagram {
-    width: 60px;
+    width: 30%;
+    max-width: 60px;
     height: auto;
     margin-top: 10px;
     display: inline-block;
 }
 #f_pic, #t_pic, #i_pic {
     width:50%;
-    height: 50%;
     display: inline-block;
     text-align: center;
 }
 #footer_pictures{
     display: inline-block;
     width:40%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+
+    #footer_text {
+        display:none;
+    }
+    #footer_pictures {
+        margin: 0 auto;
+    }
+    #facebook, #twitter, #instagram {
+        margin-top: 1%
+    }
+    .footer {
+        height: 15%;
+    }
 }
 
