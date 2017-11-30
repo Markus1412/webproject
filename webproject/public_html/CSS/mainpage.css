@@ -27,7 +27,7 @@ body {
     display: table;
     margin: 0 auto;
     margin-top: 110px;
-    width:95%;
+    width:70%;
     max-width: 1000px;
 }
 .header {
@@ -84,8 +84,16 @@ h1 {
 }
 h2 {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 16px;
 }
+h3{
+    color: #504A50;
+    font-family: verdana;
+    font-size: 60px; 
+    margin-bottom:0;
+}
+
+
 li {
     float: left;
     font-size: 14px;
@@ -163,6 +171,7 @@ li a:hover {
 #partthreebackground{
     background-color: #e6e6e6;
     width: 100%;
+    padding-bottom: 40px;
 }
 #partthree {
     display: table;
@@ -171,6 +180,12 @@ li a:hover {
     max-width: 1170px;
     height: auto;
     text-align: center;
+}
+#p3_header{
+    margin: 0 auto;
+    display:table;
+    width: 95%;
+    max-width: 780px;
 }
 #p3_problemBox {
     display: inline-block;
@@ -208,6 +223,12 @@ li a:hover {
     max-width: 1170px;
     height: auto;
     text-align: center;
+}
+#p4_header{
+    margin: 0 auto;
+    display:table;
+    width: 95%;
+    max-width: 780px; 
 }
 #p4_problembenefitimage {
     display: inline-block;
@@ -356,6 +377,14 @@ li a:hover {
         width:95%;
     }
 
+    #background{
+        height: 250px;
+    }
+
+    #background_text{
+        margin-top: 30px;
+    }
+
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1012px){ 
@@ -363,17 +392,17 @@ li a:hover {
         width:95%;
         text-align: left;
     }
-    
+
     #p3_solutionBox{
         width:95%;
         text-align: left;
         margin-top:0;
     }
-    
+
     #p3_problemSolutionImage{
         margin-top:0;
     }
-    
+
     #footer_text {
         display:none;
     }
