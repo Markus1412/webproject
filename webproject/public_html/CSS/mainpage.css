@@ -92,8 +92,6 @@ h3{
     font-size: 60px; 
     margin-bottom:0;
 }
-
-
 li {
     float: left;
     font-size: 14px;
@@ -112,7 +110,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    color:red;
+    color:#32374B;
 }
 
 #partTwo {
@@ -122,6 +120,7 @@ li a:hover {
     max-width: 1170px;
     height: auto;
     text-align: center;
+    padding-bottom: 20px;
 }
 #p2_transport {
     display: inline-block;
