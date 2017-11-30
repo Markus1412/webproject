@@ -14,7 +14,7 @@ body {
 }
 
 #background {
-    background: url(../images/background_image.jpg);  
+    background: url(../images/background_image.jpg);
     margin-top: 0;
     width: 100%;
     height: 400px;
@@ -154,17 +154,10 @@ li a:hover {
     width: 30%;
     height: 30%;  
 }
-#p2_text1, #p2_text2, #p2_text3 {
+.p2_text{
     color: black;
     font-size: 13px;
-}
-#p3_text1, #p3_text2 {
-    color: black;
-    font-size: 13px;
-}
-#p4_text1, #p4_text2 {
-    color: black;
-    font-size: 13px;
+    text-align: left;
 }
 
 #partthreebackground{
@@ -188,9 +181,9 @@ li a:hover {
 }
 #p3_problemBox {
     display: inline-block;
-    width: 30%;
+    width: 31%;
     height: auto;
-    text-align: right;
+    text-align: left;
     vertical-align: top;
     margin-top: 3%;
 }
@@ -204,7 +197,7 @@ li a:hover {
 }
 #p3_solutionBox {
     display: inline-block;
-    width: 30%;
+    width: 32%;
     height: auto;
     text-align: left;
     vertical-align: top;
