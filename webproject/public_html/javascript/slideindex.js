@@ -6,10 +6,14 @@ var slide1next = document.getElementById('slide1');
 var slide2next = document.getElementById('slide2');
 var slide3next = document.getElementById('slide3');
 
+function changeRadio(myRadio) {
+    $('#test2.test1').prop('checked', true);
+}
 
 function nextSlide() {
     goToSlide(currentSlide + 1);
-    $("#slide").animate({width:'toggle'},350);
+    $("#slide").animate({width:'toggle'},350); 
+    $('#slide2').attr("checked", "checked");
 }
 
 function previousSlide() {
