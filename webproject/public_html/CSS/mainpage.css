@@ -31,7 +31,8 @@ body {
     max-width: 1000px;
 }
 .header {
-    width: 1170px;
+    width:100%;
+    max-width: 1075px;
     display: table;
     margin: 0 auto;
     background-color: transparent;
@@ -271,13 +272,8 @@ li a:hover {
 #footercontent {
     margin: 0 auto;
     width:100%;
-    max-width: 1170px;
+    max-width: 1075px;
     display:flex;
-}
-#footer_text {
-    display: inline-block;
-    color: white;
-    text-align: center;
 }
 #facebook, #twitter, #instagram {
     width: 60px;
