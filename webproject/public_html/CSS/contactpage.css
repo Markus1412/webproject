@@ -133,7 +133,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: red;
+    background-color: #e60000;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -157,7 +157,7 @@ input[type=submit]:hover {
 }
 .footer{
     width: 100%;
-    background-color: #C03F1F;
+    background-color: #e60000;
     height: 60px;
     bottom:0;
     left:0;
