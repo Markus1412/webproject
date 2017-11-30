@@ -284,6 +284,11 @@ li a:hover {
 }
 
 
+@media only screen and (min-width: 641px){
+    .dropdown{
+        display:none;
+    }
+}
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
     #header_text{
@@ -354,15 +359,21 @@ li a:hover {
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1012px){ 
-    #p3_problemBox, #p3_problemSoloutionImage, #p3_solutionBox{
+    #p3_problemBox{
         width:95%;
         text-align: left;
     }
     
-    #p3_problemSoloutionImage{
+    #p3_solutionBox{
+        width:95%;
+        text-align: left;
         margin-top:0;
     }
-
+    
+    #p3_problemSolutionImage{
+        margin-top:0;
+    }
+    
     #footer_text {
         display:none;
     }
@@ -378,8 +389,3 @@ li a:hover {
     }
 }
 
-@media only screen and (min-width: 641px){
-    .dropdown{
-        display:none;
-    }
-}
