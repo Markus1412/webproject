@@ -7,21 +7,11 @@ body {
     margin: 0;
     height: 100%;
 }
-h1 {
-    font-family: verdana;
-    font-size: 20px;
-}
-h2 {
-    font-family: verdana;
-    text-align: center;
-    font-size: 50px;
-    color: #504A50;
-    margin-bottom: 0px;
-}
 #wrapper{
     position:relative;
     margin: 0 auto;
 }
+
 #background {
     background: url(../images/trikkbackground.png);  
     margin-top: 0;
@@ -32,9 +22,9 @@ h2 {
     display: block;
     overflow: hidden;
 }
-
 .header {
-    width: 1170px;
+    width:100%;
+    max-width: 1075px;
     display: table;
     margin: 0 auto;
     background-color: transparent;
@@ -42,11 +32,21 @@ h2 {
     overflow: hidden;
     position: static;
 }
-
 #header_text {
     display: inline-block;
     float: left;
     font-size: 14px;
+}
+h1 {
+    font-family: verdana;
+    font-size: 20px;
+}
+h2 {
+    font-family: verdana;
+    text-align: center;
+    font-size: 50px;
+    color: #504A50;
+    margin-bottom: 0px;
 }
 p {
     color: white;
@@ -71,6 +71,7 @@ li a {
 li a:hover {
     color: #32374B;
 }
+
 #information {
     width: 100%;
     background-color: white;
@@ -166,12 +167,8 @@ input[type=submit]:hover {
 #footercontent {
     display: flex;
     margin: 0 auto;
-    max-width: 1170px;
-}
-#footer_text {
-    display: inline-block;
-    color: white;
-    text-align: center;
+    width:100%;
+    max-width: 1075px;
 }
 #facebook, #twitter, #instagram {
     width: 30%;
