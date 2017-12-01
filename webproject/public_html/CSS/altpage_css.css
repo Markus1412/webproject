@@ -16,11 +16,15 @@
     height: 100%;
     vertical-align: middle;
     text-align: center;
+    cursor: pointer;
 
 }
 #prev_pic {
     margin: 0 auto;
     display: table;
+}
+#prev_img, #next_img {
+    width: 50%;
 }
 #main {
     width:70%;
@@ -34,6 +38,7 @@
     height: 100%;
     vertical-align: middle;
     text-align: center;
+    cursor: pointer;
 }
 #next_pic {
     margin: 0 auto;
@@ -165,6 +170,7 @@
 
 #p5_ul .p5_li:hover label{
     color: #FFFFFF;
+    cursor: default;
 }
 
 #p5_ul .p5_li .check{
@@ -182,7 +188,11 @@
 }
 
 #p5_ul .p5_li:hover .check {
-    border: 5px solid #C03F1F;
+    cursor: default;
+}
+
+#radio_buttons {
+    cursor: default;
 }
 
 #p5_ul li .check::before {
@@ -213,16 +223,21 @@ input[type=radio]:checked ~ label{
 
 @media only screen and (min-width: 0px) and (max-width: 640px) {
     #next_arrow, #previous_arrow {
-        display: none;
+        width: 8%;
     }
     #main {
-        width: 100%;
-        height: 300px;
+        width: 80%;
     }
     #s_div, #f_div, #v_div {
-        width: 29%;
+        float: none;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
     }
     #v_text, #s_text, #f_text {
-        width: 69%;
+        float: none;
+        display: block;
+        width: 100%;
+        height: auto;
     }
 }

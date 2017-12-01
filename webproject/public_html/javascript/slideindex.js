@@ -1,36 +1,42 @@
 
-$('#next').click(function() {
-    var $all     = $('.getradiotomove');
-    var $current = $('.getradiotomove:checked');
- 
-    var index = $all.index($current) + 1;
-    if(index >= $all.length)
-        index = 0;
-    $($all[index]).attr('checked', 'checked');
-    return false;
-});
 
-/*var slides = document.querySelectorAll('#slides .slide');
+var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
+var counter = 1;
 var next = document.getElementById('next');
 var previous = document.getElementById('previous');
 var slide1next = document.getElementById('slide1');
 var slide2next = document.getElementById('slide2');
 var slide3next = document.getElementById('slide3');
-
-function changeRadio(myRadio) {
-    $('#test2.test1').prop('checked', true);
-}
+$('#slide1').attr("disabled", true);
+$('#slide2').attr("disabled", true);
+$('#slide3').attr("disabled", true);
 
 function nextSlide() {
     goToSlide(currentSlide + 1);
-    $("#slide").animate({width:'toggle'},350); 
-    $('#slide2').attr("checked", "checked");
+    if(counter == 3) {
+        visible(1);
+        counter = 1;
+    } else {
+        visible(counter+1);
+        counter++;
+    }
+
+    //$(".slide").animate({width:'toggle'},350);
+
 }
 
 function previousSlide() {
+    //document.getElementById("demo").innerHTML = counter;
     goToSlide(currentSlide - 1);
-    $("#slide").animate({width:'toggle'},350);
+    if(counter == 1) {
+        visible(3);
+        counter = 3;
+    } else {
+        visible(counter-1);
+        counter--;
+    }
+    //$("#slide").animate({width: 'toggle'}, 350);
 }
 
 function goToSlide(n) {
@@ -38,17 +44,36 @@ function goToSlide(n) {
     currentSlide = (n + slides.length) % slides.length;
     slides[currentSlide].className = 'slide showing';
 }
-function slide1() {
+/*function slide1() {
+    counter = 1;
     goToSlide(0);
-    $("#slide").animate({width:'toggle'},350);
+    //$("#slide").animate({width: 'toggle'}, 350);
 }
 function slide2() {
+    counter = 2;
     goToSlide(1);
-    $("#slide").animate({width:'toggle'},350);
+    //$("#slide").animate({width: 'toggle'}, 350);
 }
 function slide3() {
+    counter = 3;
     goToSlide(2);
-    $("#slide").animate({width:'toggle'},350);
+    //$("#slide").animate({width: 'toggle'}, 350);
+}*/
+
+function visible(n) {
+    if (n == 1) {
+        $('#slide3').attr("checked", false);
+        $('#slide2').attr("checked", false);
+        $('#slide1').attr("checked", true);
+    } else if (n == 2) {
+        $('#slide3').attr("checked", false);
+        $('#slide1').attr("checked", false);
+        $('#slide2').attr("checked", true);
+    } else if (n == 3) {
+        $('#slide1').attr("checked", false);
+        $('#slide2').attr("checked", false);
+        $('#slide3').attr("checked", true);
+    }
 }
 
 next.onclick = function () {
@@ -57,7 +82,7 @@ next.onclick = function () {
 previous.onclick = function () {
     previousSlide();
 };
-slide1next.onclick = function () {
+/*slide1next.onclick = function () {
     slide1();
 };
 slide2next.onclick = function () {
