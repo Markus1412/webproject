@@ -21,11 +21,11 @@
                     </div>
 
                     <div id="header_text">
-                        <ul>
-                            <li><a href="#home">PREVIEW</a></li>
-                            <li><a href="contact.html">CONTACT US</a></li>
-                            <li><a href="#contact">SOMETHING</a></li>
-                            <li><a href="#about">HYPE</a></li>
+                        <ul id="h_ul">
+                            <li class="h_li"><a href="#home">PREVIEW</a></li>
+                            <li class="h_li"><a href="contact.html">CONTACT US</a></li>
+                            <li class="h_li"><a href="#contact">SOMETHING</a></li>
+                            <li class="h_li"><a href="#about">HYPE</a></li>
                         </ul>
 
                     </div>
@@ -86,7 +86,7 @@
                 </div>
             </div>
             <div id="partfour">
-                
+
                 <div id="p4_textBox">
                     <h2>Potential problems</h2>
                     <p id="p4_text1">
@@ -100,7 +100,7 @@
                 <div id="p4_shakinghandsimage">
                     <img id="p4_pic2" src="images/shakinghands.jpg">
                 </div>
-                 
+
                 <div id="p4_textBox1">
                     <h2>Extra benefits</h2>
                     <p id="p4_text2"> 
@@ -118,7 +118,7 @@
                 <div id="p4_problembenefitimage">
                     <img id="p4_pic1" src=images/think_ruter.png>
                 </div>
-                
+
             </div>
             <div id="partfive">
                 <div id="all">
@@ -140,7 +140,10 @@
                                             <p id="slide_text1">
                                                 The user can access this new function by opening the RuterReiser app, then selecting RuterFeedback. 
                                                 Doing this will take the user to this selection page where you can choose from 7 different vehicles. 
-                                                You pick whichever vehicle you used/are using and wish to provide feedback for. 
+                                                You pick whichever vehicle you used/are using and wish to provide feedback for by simply press the tab with your vehicle on. <br><br>
+
+                                                This will help the app to be more specific on where to find/write the forum posts of your liking.
+
                                             </p>
                                         </div>
                                     </div>
@@ -163,9 +166,6 @@
                                                 ensure you are sent to the forum for the vehicle you were traveling with.<br><br>
 
                                                 You also have the option to search for a specific Metro if you can’t find the one you are on/recently used. <br><br>
-
-                                                The user does not need to know the specific vehicle-number, just the route. 
-                                                The specific vehicle number will be worked out through the Ruter database using GPS and your travel history.
                                             </p>
                                         </div>
                                     </div>
@@ -202,23 +202,23 @@
                     </div>
                     <div class="container">
                         <div id="radio_buttons">
-                            <ul>
-                                <li>
-                                    <input type="radio" id="slide1" name="selector" value="1" checked>
+                            <ul id="p5_ul">
+                                <li class="p5_li">
+                                    <input type="radio" class="slider" id="slide1" name="selector" value="1" checked>
                                     <label for="slide1"></label>
 
                                     <div class="check"></div>
                                 </li>
 
-                                <li>
-                                    <input type="radio" id="slide2" name="selector" value="2">
+                                <li class="p5_li">
+                                    <input type="radio" class="slider" id="slide2" name="selector" value="2">
                                     <label for="slide2"></label>
 
                                     <div class="check"><div class="inside"></div></div>
                                 </li>
 
-                                <li>
-                                    <input type="radio" id="slide3" name="selector" value="3">
+                                <li class="p5_li">
+                                    <input type="radio" class="slider" id="slide3" name="selector" value="3">
                                     <label for="slide3"></label>
 
                                     <div class="check"><div class="inside"></div></div>
@@ -230,6 +230,20 @@
             </div>
             <script src="javascript/slideindex.js"></script>
         </div>
+        <div id="slides">
+    <ul class="options-list">
+        <li><input type="radio" class="getradiotomove" id="bundle-73" name="bundle_option" value="73"></li>
+        <li><input type="radio" class="getradiotomove" id="bundle-72" name="bundle_option" value="72"></li>
+        <li><input type="radio" class="getradiotomove" id="bundle-74" name="bundle_option" value="74"></li>
+    </ul>
+</div>
+
+<div id="buttons">
+    <a href="" id="prev">prev</a>
+    <a href="" id="next">next</a>
+    <div class="clear"></div>
+</div>  
+        
         <div class="footer">
             <div id="footercontent">
                 <div id="footer_pictures">

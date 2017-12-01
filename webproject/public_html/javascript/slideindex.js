@@ -1,4 +1,16 @@
-var slides = document.querySelectorAll('#slides .slide');
+
+$('#next').click(function() {
+    var $all     = $('.getradiotomove');
+    var $current = $('.getradiotomove:checked');
+ 
+    var index = $all.index($current) + 1;
+    if(index >= $all.length)
+        index = 0;
+    $($all[index]).attr('checked', 'checked');
+    return false;
+});
+
+/*var slides = document.querySelectorAll('#slides .slide');
 var currentSlide = 0;
 var next = document.getElementById('next');
 var previous = document.getElementById('previous');
@@ -53,4 +65,4 @@ slide2next.onclick = function () {
 };
 slide3next.onclick = function () {
     slide3();
-};
+};*/
