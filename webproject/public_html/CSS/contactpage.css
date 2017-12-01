@@ -162,27 +162,29 @@ input[type=submit]:hover {
     height: 60px;
     bottom:0;
     left:0;
+    overflow: hidden;
 }
 #footercontent {
+    display: flex;
     margin: 0 auto;
     width:100%;
     max-width: 1075px;
-    display:flex;
 }
 #facebook, #twitter, #instagram {
-    width: 60px;
+    width: 30%;
+    max-width: 60px;
     height: auto;
     margin-top: 10px;
     display: inline-block;
 }
 #f_pic, #t_pic, #i_pic {
     width:50%;
-    height: 50%;
     display: inline-block;
     text-align: center;
 }
 #footer_pictures{
     display: inline-block;
+    width:40%;
 }
 .dropbtn {
     background-color: transparent;
