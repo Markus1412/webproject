@@ -55,6 +55,7 @@ body {
 .dropdown {
     display: inline-block;
     z-index: 1;
+    max-width: 100px;
 }
 .dropdown-content {
     display: none;
@@ -74,6 +75,11 @@ body {
 .dropdown-content a:hover {background-color: #f1f1f1}
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#menu_btn {
+    width: 50%;
+    margin-top: 25%;
 }
 
 p {

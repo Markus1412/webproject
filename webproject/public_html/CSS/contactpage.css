@@ -200,6 +200,7 @@ input[type=submit]:hover {
 .dropdown {
     display: inline-block;
     z-index: 1;
+    max-width: 100px;
 }
 .dropdown-content {
     display: none;
@@ -221,6 +222,10 @@ input[type=submit]:hover {
     display: block;
 }
 
+#menu_btn {
+    width: 50%;
+    margin-top: 25%;
+}
 @media only screen and (min-width: 0px) and (max-width: 640px) {
 
     #footer_text {
