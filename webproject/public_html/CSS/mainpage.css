@@ -14,7 +14,7 @@ body {
 }
 
 #background {
-    background: url(../images/background_image.jpg);  
+    background: url(../images/background_image.jpg);
     margin-top: 0;
     width: 100%;
     height: 400px;
@@ -31,7 +31,8 @@ body {
     max-width: 1000px;
 }
 .header {
-    width: 1170px;
+    width:100%;
+    max-width: 1075px;
     display: table;
     margin: 0 auto;
     background-color: transparent;
@@ -116,7 +117,7 @@ li a {
     text-decoration: none;
 }
 li a:hover {
-    color:#e60000;
+    color:#32374B;
 }
 
 #partTwo {
@@ -160,17 +161,10 @@ li a:hover {
     width: 30%;
     height: 30%;  
 }
-#p2_text1, #p2_text2, #p2_text3 {
+.p2_text{
     color: black;
     font-size: 13px;
-}
-#p3_text1, #p3_text2 {
-    color: black;
-    font-size: 13px;
-}
-#p4_text1, #p4_text2 {
-    color: black;
-    font-size: 13px;
+    text-align: left;
 }
 
 #partthreebackground{
@@ -194,9 +188,9 @@ li a:hover {
 }
 #p3_problemBox {
     display: inline-block;
-    width: 30%;
+    width: 31%;
     height: auto;
-    text-align: right;
+    text-align: left;
     vertical-align: top;
     margin-top: 3%;
 }
@@ -210,7 +204,7 @@ li a:hover {
 }
 #p3_solutionBox {
     display: inline-block;
-    width: 30%;
+    width: 32%;
     height: auto;
     text-align: left;
     vertical-align: top;
@@ -284,13 +278,8 @@ li a:hover {
 #footercontent {
     margin: 0 auto;
     width:100%;
-    max-width: 1170px;
+    max-width: 1075px;
     display:flex;
-}
-#footer_text {
-    display: inline-block;
-    color: white;
-    text-align: center;
 }
 #facebook, #twitter, #instagram {
     width: 60px;
