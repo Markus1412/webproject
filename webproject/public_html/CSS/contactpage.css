@@ -162,29 +162,27 @@ input[type=submit]:hover {
     height: 60px;
     bottom:0;
     left:0;
-    overflow: hidden;
 }
 #footercontent {
-    display: flex;
     margin: 0 auto;
     width:100%;
     max-width: 1075px;
+    display:flex;
 }
 #facebook, #twitter, #instagram {
-    width: 30%;
-    max-width: 60px;
+    width: 60px;
     height: auto;
     margin-top: 10px;
     display: inline-block;
 }
 #f_pic, #t_pic, #i_pic {
     width:50%;
+    height: 50%;
     display: inline-block;
     text-align: center;
 }
 #footer_pictures{
     display: inline-block;
-    width:40%;
 }
 .dropbtn {
     background-color: transparent;
@@ -225,17 +223,19 @@ input[type=submit]:hover {
 }
 @media only screen and (min-width: 0px) and (max-width: 640px) {
 
-    #footer_text {
-        display:none;
-    }
-    #footer_pictures {
+    #footer_pictures{
+        display:table;
         margin: 0 auto;
     }
-    #facebook, #twitter, #instagram {
-        margin-top: 1%
+
+    #facebook{
+        text-align: center;
     }
-    .footer {
-        height: 15%;
+    #twitter{
+        text-align: center;
+    }
+    #instagram{
+        text-align: center;
     }
     #header_text{
         display: none;
@@ -244,6 +244,16 @@ input[type=submit]:hover {
 @media only screen and (min-width: 641px){
     .dropdown{
         display:none;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1012px){ 
+
+    #facebook, #twitter, #instagram {
+        margin-top: 2px;
+    }
+    .footer{
+        height:20%;
     }
 }
 
