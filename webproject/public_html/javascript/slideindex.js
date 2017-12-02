@@ -21,13 +21,9 @@ function nextSlide() {
         visible(counter+1);
         counter++;
     }
-
-    //$(".slide").animate({width:'toggle'},350);
-
 }
 
 function previousSlide() {
-    //document.getElementById("demo").innerHTML = counter;
     goToSlide(currentSlide - 1);
     if(counter == 1) {
         visible(3);
@@ -36,7 +32,6 @@ function previousSlide() {
         visible(counter-1);
         counter--;
     }
-    //$("#slide").animate({width: 'toggle'}, 350);
 }
 
 function goToSlide(n) {

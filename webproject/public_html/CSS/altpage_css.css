@@ -2,6 +2,13 @@
     width: 100%;
     background-color: #e6e6e6
 }
+#p5_header{
+    margin: 0 auto;
+    display:table;
+    width: 95%;
+    max-width: 550px; 
+    text-align: center;
+}
 #all {
     display: table;
     margin: 0 auto;
@@ -81,11 +88,6 @@
     height: 100%;
     opacity: 0;
     z-index: 1;
-
-    -webkit-transition: opacity 1s;
-    -moz-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s;
 }
 
 .showing {
@@ -109,7 +111,8 @@
     width: 56%;
     color: black;
     vertical-align: middle;
-    text-align: center;
+    text-align: left;
+    font-size: 13px;
 }
 #select, #forum, #vehicle{
     text-align: center;
@@ -148,6 +151,12 @@
     text-align: center;
     width: 33%;
     height: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 #p5_ul .p5_li input[type=radio]{
@@ -227,7 +236,7 @@ input[type=radio]:checked ~ label{
     }
     #main {
         width: 80%;
-        height: 550px;
+        height: 600px;
     }
     #s_div, #f_div, #v_div {
         float: none;
@@ -240,9 +249,10 @@ input[type=radio]:checked ~ label{
         display: block;
         width: 100%;
         height: auto;
+        text-align: center;
     }
     #select_pic, #vehicle_pic, #forum_pic {
         margin-right: 0;
-        width: 70%;
+        width: 100%;
     }
 }
