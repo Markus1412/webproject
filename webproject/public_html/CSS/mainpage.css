@@ -393,7 +393,8 @@ li a:hover {
     }
     
     #p5_header{
-        max-width: 300px; 
+        width:100%;
+        max-width: 450px; 
     }
     
     #p4_textBox, #p4_textBox1{
