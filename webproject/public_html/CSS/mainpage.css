@@ -276,8 +276,8 @@ li a:hover {
     width: 100%;
     background-color: #e60000;
     height: 60px;
-    bottom:0;
-    left:0;
+    margin:0;
+    overflow:hidden;
 }
 #footercontent {
     margin: 0 auto;
