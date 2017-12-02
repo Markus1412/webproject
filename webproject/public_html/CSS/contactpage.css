@@ -159,7 +159,6 @@ input[type=submit]:hover {
 .footer{
     width: 100%;
     background-color: #e60000;
-    height: 60px;
     margin:0;
     overflow: hidden;
 }
@@ -173,7 +172,7 @@ input[type=submit]:hover {
     width: 30%;
     max-width: 60px;
     height: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     display: inline-block;
 }
 #f_pic, #t_pic, #i_pic {
@@ -251,10 +250,8 @@ input[type=submit]:hover {
 @media only screen and (min-width: 0px) and (max-width: 1012px){ 
 
     #facebook, #twitter, #instagram {
-        margin-top: 2px;
-    }
-    .footer{
-        height:20%;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 }
 
