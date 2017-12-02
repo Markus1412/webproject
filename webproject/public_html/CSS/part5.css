@@ -64,7 +64,6 @@
     display: inline-block;
     vertical-align: bottom;
 }
-
 #p_text{
     display: inline-block;
 }
@@ -79,7 +78,6 @@
     margin: 0px;
     list-style-type: none;
 }
-
 .slide {
     position: absolute;
     left: 0px;
@@ -265,7 +263,6 @@ input[type=radio]:checked ~ label{
         height: 675px;
     }
 }
-
 @media only screen and (max-width: 1080px) and (min-width: 0px) {
     #p5_header {
         width: 100%;
