@@ -44,21 +44,6 @@ function goToSlide(n) {
     currentSlide = (n + slides.length) % slides.length;
     slides[currentSlide].className = 'slide showing';
 }
-/*function slide1() {
-    counter = 1;
-    goToSlide(0);
-    //$("#slide").animate({width: 'toggle'}, 350);
-}
-function slide2() {
-    counter = 2;
-    goToSlide(1);
-    //$("#slide").animate({width: 'toggle'}, 350);
-}
-function slide3() {
-    counter = 3;
-    goToSlide(2);
-    //$("#slide").animate({width: 'toggle'}, 350);
-}*/
 
 function visible(n) {
     if (n == 1) {
@@ -82,12 +67,3 @@ next.onclick = function () {
 previous.onclick = function () {
     previousSlide();
 };
-/*slide1next.onclick = function () {
-    slide1();
-};
-slide2next.onclick = function () {
-    slide2();
-};
-slide3next.onclick = function () {
-    slide3();
-};*/
