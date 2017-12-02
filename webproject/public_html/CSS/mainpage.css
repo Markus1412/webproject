@@ -167,6 +167,11 @@ li a:hover {
 .p2_textdiv{
     display:inline-block;
 }
+.p2_text {
+    color: black;
+    font-size: 13px;
+    text-align: center;
+}
 #slide_text1, #slide_text2, #slide_text3 {
     color: black;
     font-size: 13px;
@@ -356,13 +361,13 @@ li a:hover {
         width: 45%;
         height: 45%;  
     }
-     
+
 
     #footer_pictures{
         display:table;
         margin: 0 auto;
     }
-    
+
     #facebook{
         text-align: center;
     }
@@ -385,6 +390,10 @@ li a:hover {
 
     #p4_header{
         max-width:530px;
+    }
+    
+    #p5_header{
+        max-width: 300px; 
     }
     
     #p4_textBox, #p4_textBox1{
