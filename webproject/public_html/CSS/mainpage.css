@@ -386,9 +386,7 @@ li a:hover {
     #p4_header{
         max-width:530px;
     }
-}
-
-@media only screen and (min-width: 0px) and (max-width: 1080px){    
+    
     #p4_textBox, #p4_textBox1{
         width:95%;
     }
@@ -400,7 +398,6 @@ li a:hover {
     #background_text{
         margin-top: 30px;
     }
-
 }
 
 @media only screen and (min-width: 0px) and (max-width: 1012px){ 
