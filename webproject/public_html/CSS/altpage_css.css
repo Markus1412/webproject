@@ -256,12 +256,19 @@ input[type=radio]:checked ~ label{
         width: 100%;
     }
     #p5_header{
-        max-width: 300px;
+        max-width: 500px;
     }
 }
 @media only screen and (min-width: 300px) and (max-width: 640px) {
     #main {
         width: 80%;
         height: 675px;
+    }
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 0px) {
+    #p5_header {
+        width: 100%;
+        max-width: 450px;
     }
 }
