@@ -256,6 +256,7 @@ input[type=submit]:hover {
     }
     .footer{
         height:20%;
+        margin-bottom:-20px;
     }
 }
 
