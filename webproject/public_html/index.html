@@ -5,8 +5,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="CSS/mainpage.css">
+<<<<<<< HEAD
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="javascript/contactjs.js"></script>
+=======
+        <link rel="stylesheet" type="text/css" href="CSS/altpage_css.css">
+>>>>>>> akseltest
     </head>
     <body>
         <div id="wrapper">
@@ -23,11 +27,19 @@
                     </div>
 
                     <div id="header_text">
+<<<<<<< HEAD
                         <ul>
                             <li><a href="#partthree">THE WHY</a></li>
                             <li><a href="#partfour">CHALLENGES</a></li>
                             <li><a href="#about">APP-PREVIEW</a></li>
                             <li><a href="contact.html">CONTACT US</a></li>
+=======
+                        <ul id="h_ul">
+                            <li class="h_li"><a href="#home">PREVIEW</a></li>
+                            <li class="h_li"><a href="contact.html">CONTACT US</a></li>
+                            <li class="h_li"><a href="#contact">SOMETHING</a></li>
+                            <li class="h_li"><a href="#about">HYPE</a></li>
+>>>>>>> akseltest
                         </ul>
 
                     </div>
@@ -96,10 +108,14 @@
                 </div>
             </div>
             <div id="partfour">
+<<<<<<< HEAD
                 <div id="p4_header">
                     <h3>Challenges & Benefits</h3>
                     <hr/>
                 </div>
+=======
+
+>>>>>>> akseltest
                 <div id="p4_textBox">
                     <h2>Challenges</h2>
                     <p class="p_text">
@@ -132,7 +148,120 @@
                     <img id="p4_pic1" src=images/think_ruter.png>
                 </div>
 
+<<<<<<< HEAD
+=======
             </div>
+            <div id="partfive">
+                <div id="all">
+                    <div id="arrow_and_text">
+                        <div id="previous_arrow">
+                            <div id="prev_pic">
+                                <a class="controls" id="previous" onclick="changeRadio(this);"><img id="prev_img" src="images/arrow_previous.png"></a>
+                            </div>
+                        </div>
+                        <div id="main">
+                            <ul id="slides">
+                                <li class="slide showing">
+                                    <div id="vehicle" >
+                                        <div id="v_div">
+                                            <img id="vehicle_pic" src="images/app_pics/full_vehicle.png">
+                                        </div>
+                                        <div id="v_text">
+                                            <h2>Choose Vehicle</h2>
+                                            <p id="slide_text1">
+                                                The user can access this new function by opening the RuterReiser app, then selecting RuterFeedback. 
+                                                Doing this will take the user to this selection page where you can choose from 7 different vehicles. 
+                                                You pick whichever vehicle you used/are using and wish to provide feedback for by simply press the tab with your vehicle on. <br><br>
+
+                                                This will help the app to be more specific on where to find/write the forum posts of your liking.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide">
+                                    <div id="select" >
+                                        <div id="s_div">
+                                            <img id="select_pic" src="images/app_pics/full_select.png">
+                                        </div>
+                                        <div id="s_text">
+                                            <h2>Select your Metro</h2>
+
+                                            <p id="slide_text2">
+                                                In this example the user selected Metro on the previous screen. 
+                                                The next step is to pick the correct Metro to make sure you are giving feedback in the proper forum.<br><br>
+
+                                                By default the app shows nearby vehicles and lets you select the one you are currently on. 
+                                                If you are giving feedback after stepping off the Metro you can change the nearby option to recent or history. 
+                                                The RuterReiser app already has GPS tracking for other functions and will work for RuterFeedback to 
+                                                ensure you are sent to the forum for the vehicle you were traveling with.<br><br>
+
+                                                You also have the option to search for a specific Metro if you can’t find the one you are on/recently used. <br><br>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide">
+                                    <div id="forum" >
+                                        <div id="f_div">
+                                            <img id="forum_pic" src="images/app_pics/full_forum.png">
+                                        </div>
+                                        <div id="f_text">
+                                            <h2>Feedback Forum</h2>
+
+                                            <p id="slide_text3">
+                                                After selecting your Metro you get sent to the feedback forum for that specific vehicle. 
+                                                Here you can see current topics and decide to read/reply to them if you wish. You can also 
+                                                give them a thumbs up/down or use the share button to spread this issue to social media. 
+                                                The user can sort the current topics by likes, comments or date. <br><br>
+
+                                                A user can easily make a new topic by clicking on the “Feedback…” box. 
+                                                This box will then expand and allow the user to write down their feedback.<br><br> 
+
+                                                In this specific example picture the user selected Bus -> Route 32 to get sent to this feedback forum.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="next_arrow">
+                            <div id="next_pic">
+                                <a class="controls" id="next"><img id="next_img" src="images/arrow_next.png"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div id="radio_buttons">
+                            <ul id="p5_ul">
+                                <li class="p5_li">
+                                    <input type="radio" class="slider" id="slide1" value="1" checked>
+                                    <label for="slide1"></label>
+
+                                    <div class="check"></div>
+                                </li>
+
+                                <li class="p5_li">
+                                    <input type="radio" class="slider" id="slide2" value="2">
+                                    <label for="slide2"></label>
+
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+
+                                <li class="p5_li">
+                                    <input type="radio" class="slider" id="slide3" value="3">
+                                    <label for="slide3"></label>
+
+                                    <div class="check"><div class="inside"></div></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+>>>>>>> akseltest
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="javascript/slideindex.js"></script>
         </div>
         <div class="footer">
             <div id="footercontent">
